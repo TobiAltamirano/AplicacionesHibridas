@@ -1,0 +1,4 @@
+Sistema operativo: win32 
+Arquitectura del sistema: x64
+Altamirano Tobias 
+Creador del archivo
