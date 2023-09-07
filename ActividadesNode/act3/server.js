@@ -79,21 +79,34 @@ app.get('/productos/:id', (req, res) => {
     res.send({filterById})
 });
 
-// Tambie debe estar la posibilidad de recibir en la misma url los query "minimo" y "maximo" con un valor numerico. Utilizando esos query, retornar los productos que entren en ese rango de precios (se podria recibir solo una de las dos query o ambas).
+// Tambien debe estar la posibilidad de recibir en la misma url los query "minimo" y "maximo" con un valor numerico. Utilizando esos query, retornar los productos que entren en ese rango de precios (se podria recibir solo una de las dos query o ambas).
 
-app.get('/productos?min&max', (req, res) => {
+app.get('/productos?min=valor&max=valor', (req, res) => {
     let minimo = parseInt(req.query.min);
     let maximo = parseInt(req.query.max);
-    let filterMinimo = productos.filter(p => p.precio >= minimo)
-    let filterMaximo = productos.filter(p => p.precio <= maximo)
-    if(filterMinimo){
-        res.send(filterMinimo)
+    
+    // Si no se proporcionan los valores minimo y maximo en los query, devolver todos los productos.
+    if (isNaN(minimo) && isNaN(maximo)) {
+        res.send(productos);
     } else {
-        res.send("NAda")
-    }
+        let filteredProductos = productos.filter(p => {
+            if (!isNaN(minimo) && !isNaN(maximo)) {
+                return p.precio >= minimo && p.precio <= maximo;
+            } else if (!isNaN(minimo)) {
+                return p.precio >= minimo;
+            } else if (!isNaN(maximo)) {
+                return p.precio <= maximo;
+            }
+        });
 
-    // || (productos.filter(p => p.precio == minimo) && productos.filter(p => p.precio == maximo))
+        if (filteredProductos.length > 0) {
+            res.send(filteredProductos);
+        } else {
+            res.send("No se encontraron productos que coincidan con los criterios de búsqueda.");
+        }
+    }
 });
+
 
 
 // DE LA PARTE 2
