@@ -1,0 +1,100 @@
+[{
+  "_id": {
+    "$oid": "65314510a30c474b5955c189"
+  },
+  "nombre": "Christopher",
+  "apellido": "Nolan",
+  "edad": 51,
+  "nacionalidad": "Británico",
+  "numero_premios": 5
+},
+{
+  "_id": {
+    "$oid": "65314510a30c474b5955c18a"
+  },
+  "nombre": "Anthony",
+  "apellido": "Russo",
+  "edad": 51,
+  "nacionalidad": "Estadounidense",
+  "numero_premios": 2
+},
+{
+  "_id": {
+    "$oid": "65314510a30c474b5955c18c"
+  },
+  "nombre": "Martin",
+  "apellido": "Scorsese",
+  "edad": 79,
+  "nacionalidad": "Estadounidense",
+  "numero_premios": 3
+},
+{
+  "_id": {
+    "$oid": "65314510a30c474b5955c18d"
+  },
+  "nombre": "Pedro",
+  "apellido": "Almodóvar",
+  "edad": 71,
+  "nacionalidad": "Español",
+  "numero_premios": 4
+},
+{
+  "_id": {
+    "$oid": "65314510a30c474b5955c18e"
+  },
+  "nombre": "Sofia",
+  "apellido": "Coppola",
+  "edad": 50,
+  "nacionalidad": "Estadounidense",
+  "numero_premios": 3
+},
+{
+  "_id": {
+    "$oid": "65314510a30c474b5955c18f"
+  },
+  "nombre": "Bong",
+  "apellido": "Joon-ho",
+  "edad": 52,
+  "nacionalidad": "Surcoreano",
+  "numero_premios": 4
+},
+{
+  "_id": {
+    "$oid": "65314510a30c474b5955c190"
+  },
+  "nombre": "Greta",
+  "apellido": "Gerwig",
+  "edad": 38,
+  "nacionalidad": "Estadounidense",
+  "numero_premios": 1
+},
+{
+  "_id": {
+    "$oid": "65314510a30c474b5955c191"
+  },
+  "nombre": "Ava",
+  "apellido": "DuVernay",
+  "edad": 49,
+  "nacionalidad": "Estadounidense",
+  "numero_premios": 2
+},
+{
+  "_id": {
+    "$oid": "65314510a30c474b5955c192"
+  },
+  "nombre": "Damian",
+  "apellido": "Szifron",
+  "edad": 48,
+  "nacionalidad": "Argentino",
+  "numero_premios": 14
+},
+{
+  "_id": {
+    "$oid": "65317a26a30c474b5955c1a9"
+  },
+  "nombre": "Joe",
+  "apellido": "Russo",
+  "edad": 51,
+  "nacionalidad": "Estadounidense",
+  "numero_premios": "2"
+}]

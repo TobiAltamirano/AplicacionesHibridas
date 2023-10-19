@@ -1,0 +1,139 @@
+[{
+  "_id": {
+    "$oid": "6528934af05f2d6315310222"
+  },
+  "titulo": "Parasite",
+  "descripcion": "Una familia se infiltra en una rica casa, pero cosas extrañas suceden.",
+  "fecha_estreno": "2019-05-21",
+  "personajes_principales": {
+    "nombre_personajes1": "Song Kang-ho",
+    "nombre_personajes2": "Lee Sun-kyun"
+  },
+  "numero_premios": 4,
+  "genero": "Accion"
+},
+{
+  "_id": {
+    "$oid": "6528952ff05f2d6315310224"
+  },
+  "titulo": "Joker",
+  "descripcion": "La historia de origen del icónico villano de Batman.",
+  "fecha_estreno": "2019-10-04",
+  "personajes_principales": {
+    "nombre_personajes1": "Joaquin Phoenix",
+    "nombre_personajes2": "Robert De Niro"
+  },
+  "numero_premios": 2,
+  "genero": "Accion"
+},
+{
+  "_id": {
+    "$oid": "65289545f05f2d6315310226"
+  },
+  "titulo": "La La Land",
+  "descripcion": "Un músico y una actriz se enamoran en Los Ángeles.",
+  "fecha_estreno": "2016-12-09",
+  "personajes_principales": {
+    "nombre_personajes1": "Ryan Gosling",
+    "nombre_personajes2": "Emma Stone"
+  },
+  "numero_premios": 6,
+  "genero": "Romance"
+},
+{
+  "_id": {
+    "$oid": "65289559f05f2d6315310228"
+  },
+  "titulo": "Mad Max: Fury Road",
+  "descripcion": "Max se une a Furiosa para escapar de Immortan Joe.",
+  "fecha_estreno": "2015-05-15",
+  "personajes_principales": {
+    "nombre_personajes1": "Tom Hardy",
+    "nombre_personajes2": "Charlize Theron"
+  },
+  "numero_premios": 6,
+  "genero": "Aventura"
+},
+{
+  "_id": {
+    "$oid": "6528956ef05f2d631531022a"
+  },
+  "titulo": "The Shape of Water",
+  "descripcion": "Una mujer muda se enamora de un hombre anfibio en un laboratorio secreto.",
+  "fecha_estreno": "2017-12-08",
+  "personajes_principales": {
+    "nombre_personajes1": "Sally Hawkins",
+    "nombre_personajes2": "Doug Jones"
+  },
+  "numero_premios": 4,
+  "genero": "Romance"
+},
+{
+  "_id": {
+    "$oid": "6528962af05f2d631531022d"
+  },
+  "titulo": "The Irishman",
+  "descripcion": "Un asesino a sueldo reflexiona sobre su vida y crímenes.",
+  "fecha_estreno": "2019-11-01",
+  "personajes_principales": {
+    "nombre_personajes1": "Robert De Niro",
+    "nombre_personajes2": "Al Pacino"
+  },
+  "numero_premios": 2,
+  "genero": "Accion"
+},
+{
+  "_id": {
+    "$oid": "6528963ef05f2d631531022f"
+  },
+  "titulo": "Interstellar",
+  "descripcion": "Viaje interestelar en busca de un nuevo hogar.",
+  "fecha_estreno": "2014-11-07",
+  "personajes_principales": {
+    "nombre_personajes1": "Matthew McConaughey",
+    "nombre_personajes2": "Anne Hathaway"
+  },
+  "numero_premios": 1,
+  "genero": "Aventura"
+},
+{
+  "_id": {
+    "$oid": "6528966af05f2d6315310231"
+  },
+  "titulo": "Inception",
+  "descripcion": "Un ladrón de sueños se embarca en una misión de alto riesgo.",
+  "fecha_estreno": "2010-07-08",
+  "personajes_principales": {
+    "nombre_personajes1": "Leonardo DiCaprio",
+    "nombre_personajes2": "Joseph Gordon-Levitt"
+  },
+  "numero_premios": 4
+},
+{
+  "_id": {
+    "$oid": "65314a24a30c474b5955c199"
+  },
+  "titulo": "1917",
+  "descripcion": "Dos soldados británicos se embarcan en una misión peligrosa durante la Primera Guerra Mundial.",
+  "fecha_estreno": "2019-12-25",
+  "personajes_principales": {
+    "nombre_personajes1": "George MacKay",
+    "nombre_personajes2": "Dean-Charles Chapman"
+  },
+  "numero_premios": 3,
+  "genero": "Accion"
+},
+{
+  "_id": {
+    "$oid": "653167daa30c474b5955c1a0"
+  },
+  "titulo": "Avengers: Endgame",
+  "descripcion": "Los superhéroes de Marvel luchan contra Thanos.",
+  "fecha_estreno": "2019-04-26",
+  "genero": "Acción",
+  "personajes_principales": {
+    "nombre_personajes1": "Robert Downey Jr.",
+    "nombre_personajes2": "Chris Evans"
+  },
+  "numero_premios": 3
+}]
